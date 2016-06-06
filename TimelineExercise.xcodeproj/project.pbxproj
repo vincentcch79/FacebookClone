@@ -12,6 +12,11 @@
 		9F9AD4C51D016ED900D09D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AD4C31D016ED900D09D54 /* Main.storyboard */; };
 		9F9AD4C71D016ED900D09D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AD4C61D016ED900D09D54 /* Assets.xcassets */; };
 		9F9AD4CA1D016ED900D09D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AD4C81D016ED900D09D54 /* LaunchScreen.storyboard */; };
+		9F9AD4D21D0170E400D09D54 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AD4D11D0170E400D09D54 /* MainTableViewController.swift */; };
+		9F9AD4D71D01715600D09D54 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AD4D51D01715600D09D54 /* CustomTableViewCell.swift */; };
+		9F9AD4D81D01715600D09D54 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AD4D61D01715600D09D54 /* CustomTableViewCell.xib */; };
+		9F9AD4DB1D01762D00D09D54 /* CustomImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AD4D91D01762D00D09D54 /* CustomImageTableViewCell.swift */; };
+		9F9AD4DC1D01762D00D09D54 /* CustomImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AD4DA1D01762D00D09D54 /* CustomImageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		9F9AD4C61D016ED900D09D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F9AD4C91D016ED900D09D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F9AD4CB1D016ED900D09D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9AD4D11D0170E400D09D54 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		9F9AD4D51D01715600D09D54 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9F9AD4D61D01715600D09D54 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		9F9AD4D91D01762D00D09D54 /* CustomImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageTableViewCell.swift; sourceTree = "<group>"; };
+		9F9AD4DA1D01762D00D09D54 /* CustomImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomImageTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				9F9AD4C61D016ED900D09D54 /* Assets.xcassets */,
 				9F9AD4C81D016ED900D09D54 /* LaunchScreen.storyboard */,
 				9F9AD4CB1D016ED900D09D54 /* Info.plist */,
+				9F9AD4D11D0170E400D09D54 /* MainTableViewController.swift */,
+				9F9AD4D51D01715600D09D54 /* CustomTableViewCell.swift */,
+				9F9AD4D61D01715600D09D54 /* CustomTableViewCell.xib */,
+				9F9AD4D91D01762D00D09D54 /* CustomImageTableViewCell.swift */,
+				9F9AD4DA1D01762D00D09D54 /* CustomImageTableViewCell.xib */,
 			);
 			path = TimelineExercise;
 			sourceTree = "<group>";
@@ -124,7 +139,9 @@
 			files = (
 				9F9AD4CA1D016ED900D09D54 /* LaunchScreen.storyboard in Resources */,
 				9F9AD4C71D016ED900D09D54 /* Assets.xcassets in Resources */,
+				9F9AD4D81D01715600D09D54 /* CustomTableViewCell.xib in Resources */,
 				9F9AD4C51D016ED900D09D54 /* Main.storyboard in Resources */,
+				9F9AD4DC1D01762D00D09D54 /* CustomImageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F9AD4C21D016ED900D09D54 /* ViewController.swift in Sources */,
+				9F9AD4DB1D01762D00D09D54 /* CustomImageTableViewCell.swift in Sources */,
+				9F9AD4D21D0170E400D09D54 /* MainTableViewController.swift in Sources */,
+				9F9AD4D71D01715600D09D54 /* CustomTableViewCell.swift in Sources */,
 				9F9AD4C01D016ED900D09D54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
